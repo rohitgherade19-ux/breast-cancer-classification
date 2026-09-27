@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts (regenerate via `python src/train.py`)
+models/*.pkl
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Environment variables
+.env
